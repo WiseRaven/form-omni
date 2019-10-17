@@ -1,0 +1,47 @@
+@media all and (max-width: 768px) {
+    .rating {
+        font-family: HelveticaMedium, Arial, sans-serif;
+    }
+    .rating-inner {
+        max-width: 280px;
+    }
+    .rating-heading {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 26px;
+    }
+    .rating-block {
+        padding: 13px;
+    }
+    .rating-btn-body {
+        width: 78px;
+        height: 78px;
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .rating-btn-body i {
+        font-size: 36px;
+        line-height: 41px;
+    }
+    .rating-btn {
+        margin-right: unset;
+    }
+    .rating-body {
+        margin-top: 12px;
+    }
+    textarea {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 8px 10px;
+        margin-bottom: 12px;
+    }
+    .send-btn {
+        height: 32px;
+        line-height: 32px;
+        padding: 0 4px;
+        font-size: 11px;
+    }
+    .send-btn.loading i {
+        font-size: 16px;
+    }
+}

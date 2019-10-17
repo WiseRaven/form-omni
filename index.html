@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/media.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="rating">
+        <div class="rating-inner">
+            <p class="rating-heading js-rating-heading">
+                Как вы оцениваете качество <br> ответов сотрудника?
+            </p>
+            <div class="rating-block">
+                <form>
+                    <div class="rating-head">
+                        <label class="rating-btn btn-smile">
+                            <input type="radio" name="rating" value="smile" class="js-radio">
+                            <span class="rating-btn-body">
+                                <i class="far fa-smile"></i>
+                                <span>Отлично</span>
+                            </span>
+                        </label>
+
+                        <label class="rating-btn btn-meh">
+                            <input type="radio" name="rating" value="meh" class="js-radio">
+                            <span class="rating-btn-body">
+                                <i class="far fa-meh"></i>
+                                <span>Неплохо</span>
+                            </span>
+                        </label>
+
+                        <label class="rating-btn btn-frown">
+                            <input type="radio" name="rating" value="frown" class="js-radio">
+                            <span class="rating-btn-body">
+                                <i class="far fa-frown"></i>
+                                <span>Слабо</span>
+                            </span>
+                        </label>
+                    </div>
+                    <div class="rating-body">
+                        <textarea class="js-textarea" placeholder="При желании прокомментируйте оценку"></textarea>
+                        <button class="send-btn disable js-send-btn" type="submit">
+                            <span>Оставить комментарий к оценке</span>
+                            <span class="success">Спасибо за комментарий к оценке!</span>
+                            <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>             
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+</body>
+</html>
